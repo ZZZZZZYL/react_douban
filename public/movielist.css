@@ -1,0 +1,70 @@
+.movielist{
+	clear: both
+}
+.movielist h3{
+    min-width: 4em;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #111;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-size: 1.06rem;
+	font-weight: normal;
+	float: left;
+	margin-left: 15px
+}
+.movielist i{
+	display: block;
+	float:right;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    font-style: normal;
+}
+.movielist i a {
+    color: #42bd56;
+    text-decoration: none;
+}
+.movielist ul
+{
+	
+    border-bottom: 1px solid #F2F2F2;
+    padding: 15px 0 43px 0;
+    font-size: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    clear: both
+}
+
+.movielist ul:first-child {
+    margin-left: 1.12rem;
+}
+.movielist ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 187px;
+    text-align: center;
+   	font-size: 16px;
+    margin-left: 0.48rem;
+}
+.movielist ul li img{
+	width: 100px;
+	height: 143px;
+}
+.movielist ul li p{
+	display: block;
+	width: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height:30px;
+}
+.movielist ul li b{
+	font-weight: normal;
+	color: #aaa;
+	font-size:0.72rem;
+}
+.movielist a{
+	color: #111;
+	text-decoration: none
+}

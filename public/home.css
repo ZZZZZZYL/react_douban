@@ -1,0 +1,27 @@
+.lis{
+	overflow: hidden;
+    margin: 20px 0 0 10px;
+    padding-top: 6px;
+    width: 100%;
+}
+
+.lis a{
+	float: left;
+    width: 45%;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #f6f6f6;
+    color: #494949;
+    display: block;
+    line-height: 20px;
+    padding: 12px 0;
+    margin: 0 10px 10px 0;
+    border-radius: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-decoration:none
+}
